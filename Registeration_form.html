@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styledemo.css">
+  <title>Trip.com</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="Images/logo.png" alt="First Things Logo">
+      <span>Trip.com</span>
+    </div>
+   
+    <ul class="nav-links">
+      <li><a href="Indexdemo.html">Home</a></li>
+      <li><a href="Servicesdemo.html">Services</a></li>
+      <li><a href="Aboutdemo.html">About</a></li>
+      <li><a href="Destinationdemo.html">Destination</a></li>
+      <li><a href="Hotelsdemo.html">Hotel</a></li>
+      <li><a href="#">Restaurant</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="social-links">
+      <a href="#"><img src="Images/facebook.png" alt="Facebook Icon"></a>
+      <a href="#"><img src="Images/twitter.png" alt="Twitter Icon"></a>
+      <a href="#"><img src="Images/pinterest.png" alt="Pinterest Icon"></a>
+    </div>
+  </nav>
+  <div class="heading">
+    <h3>Use this form to register for your vocation. Please register your legal name as it appear on your passport.</h3>
+  </div>
+  <form id="vacation-form">
+    <legend>Personal Information</legend>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br>
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br>
+    <label for="address">Address:</label><br>
+    <input type="text" id="address" name="address" required><br>
+    <label for="guest2">Guest #2 Full Name:</label><br>
+    <input type="text" id="guest2" name="guest2" required><br>
+    <label for="guest2dob">Date of Birth:</label><br>
+    <input type="date" id="guest2dob" name="guest2dob" required><br>
+    <label for="guest3">Guest #3 Full Name:</label><br>
+    <input type="text" id="guest3" name="guest3" required><br>
+    <label for="guest3dob">Date of Birth:</label><br>
+    <input type="date" id="guest3dob" name="guest3dob" required><br>
+    <label for="guest4">Guest #4 Full Name:</label><br>
+    <input type="text" id="guest4" name="guest4" required><br>
+    <label for="guest4dob">Date of Birth:</label><br>
+    <input type="date" id="guest4dob" name="guest4dob" required><br>
+    <label for="citizen">Are all guests traveling U.S. citizens?</label>
+    <input type="checkbox" id="citizen" name="citizen" required><br>
+  
+    <fieldset id="travel-info">
+      <legend>Travel Information</legend>
+      <label for="travel-type">Cruise or Air / Hotel:</label><br>
+      <select id="travel-type" name="travel-type" required>
+        <option value="" disabled selected>Select an option</option>
+        <option value="cruise">Cruise</option>
+        <option value="air">Air / Hotel</option>
+      </select><br>
+      <label for="cabin-type">Cabin Type:</label><br>
+      <select id="cabin-type" name="cabin-type" required>
+        <option value="" disabled selected>Select an option</option>
+        <option value="a">Type A</option>
+        <option value="b">Type B</option>
+        <option value="c">Type C</option>
+      </select><br>
+      <label for="hotel-dedding">Hotel Dedding:</label><br>
+      <input type="text" id="hotel-dedding" name="hotel-dedding" required><br>
+      <label for="health-concerns">Health Concerns:</label><br>
+      <textarea id="health-concerns" name="health-concerns"></textarea><br>
+      <label for="special-occasion">Special Occasion:</label><br>
+      <input type="text" id="special-occasion" name="special-occasion"><br>
+      <label for="emergency-contact">Emergency Contact (names and number):</label><br>
+      <textarea id="emergency-contact" name="emergency-contact" required></textarea><br>
+      <label for="dining-choice">Cruise dining choice:</label><br>
+      <input type="text" id="dining-choice" name="dining-choice" required><br>
+      <label for="total-cost">Total trip cost:</label><br>
+      <input type="number" id="total-cost" name="total-cost" required><br>
+      <label for="travel-insurance">Do you want travel Insurance?</label>
+<select id="travel-insurance" name="travel-insurance" required>
+  <option value="" disabled selected>Select an option</option>
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select>
+        <p>I acknowledge that I have read this registration form completely and the information I provided is accurate.
+             I understand that my deposit is non-refunable and other cancellation penalties will apply depending on the
+              cancel date. I understand that if my roomate (s) cancel, my rate will change. I understand that all monies must
+               be paid by the final payment date. if my balance is left unpaid, my cabin will be canceled immediately. 
+               Prices for reinstated cabins maybe higher than intial rate and a $50 reinstatement / administration fee will 
+               be charge by Essence Travel regardless of the cancellation date.</p>
+               
+               <label for="terms and conditions">Do you agree to the terms and conditions</label>
+<select id="travel-insurance" name="travel-insurance" required>
+  <option value="" disabled selected>Select an option</option>
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select>
+<button>SUBMIT</button>
+      </fieldset>
+      </form>
+  
+  
+</body>
+</html>
